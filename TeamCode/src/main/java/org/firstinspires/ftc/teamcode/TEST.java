@@ -8,7 +8,7 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 public class TEST extends OpMode{
     @Override
     public void init() {
-        telemetry.addData("Hello", "Team");
+        telemetry.addData("Hellooo", "Team");
     }
 
     @Override
