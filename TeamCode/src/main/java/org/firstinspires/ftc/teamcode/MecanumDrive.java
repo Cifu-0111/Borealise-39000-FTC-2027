@@ -14,7 +14,7 @@ public class MecanumDrive {
     public void init(HardwareMap hwMap){
         frontLeftMotor = hwMap.get(DcMotor.class, "front_left_drive"); //definition de variable
         backLeftMotor = hwMap.get(DcMotor.class, "back_left_drive");//ajouter ces noms sur la Drive Station (tres important de garder le meme nom)
-        frontRightMotor = hwMap.get(DcMotor.class, "front_right_drive"); 
+        frontRightMotor = hwMap.get(DcMotor.class, "front_right_drive");
         backRightMotor = hwMap.get(DcMotor.class, "back_right_drive");
 
         frontLeftMotor.setDirection(DcMotor.Direction.REVERSE); //normalement ils sont inverses, maintenat ils vont tourner dans lameme direction
