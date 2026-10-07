@@ -20,7 +20,7 @@ public class MecanumDrive {
         frontLeftMotor.setDirection(DcMotor.Direction.REVERSE); //normalement ils sont inverses, maintenat ils vont tourner dans lameme direction
         backLeftMotor.setDirection(DcMotor.Direction.REVERSE);
 
-        frontLeftMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER); //avec tous les moteurs ont essayer de aller a la meme vitesse,(chager le power pour arriver)
+        frontLeftMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER); //avec encodeur  tous les moteurs ont essayer de aller a la meme vitesse,(chager le power pour arriver)
         backLeftMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         frontRightMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         backRightMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
