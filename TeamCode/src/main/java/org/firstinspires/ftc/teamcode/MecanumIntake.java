@@ -22,5 +22,4 @@ public void setMotorSpeed(double speed){
     motor2.setPower(-speed);
 }
 
-
 }
