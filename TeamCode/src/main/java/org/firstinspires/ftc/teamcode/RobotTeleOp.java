@@ -1,6 +1,7 @@
 package org.firstinspires.ftc.teamcode;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
+
 @TeleOp
 public class RobotTeleOp extends OpMode{
 
@@ -30,6 +31,7 @@ public class RobotTeleOp extends OpMode{
         else {
             intake.setMotorSpeed(0.0);//off
         }
+
 
 
     //FieldOriented
